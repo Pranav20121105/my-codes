@@ -1,0 +1,5 @@
+order = str(input("what will be you word: ")).lower()
+if order == order[::-1]:
+    print("your word is a palindrome")
+else:
+    print("Your given word is not a palindrome")
